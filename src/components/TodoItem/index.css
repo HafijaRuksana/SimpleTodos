@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+}
+.todo-line {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.button {
+  border-radius: 7px;
+  height: 30px;
+  border-style: solid;
+  border-color: #ff0b37;
+  color: #ff0b37;
+  background-color: #ffffff;
+}

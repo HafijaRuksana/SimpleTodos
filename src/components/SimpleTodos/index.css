@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.simple-todos-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffc2a0;
+  background-size: cover;
+  height: 100vh;
+}
+.content-card {
+  width: 80%;
+
+  color: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  background-color: #ffffff;
+}
+.heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+}
+.todos-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4px;
+}
